@@ -1,0 +1,159 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+header {
+    background-color: #003366; /* Biru tua */
+    color: white;
+    padding: 10px 20px;
+}
+
+.top-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    height: 60px;
+}
+
+.title-group {
+    flex: 1;
+    text-align: center;
+}
+
+.title-group h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.subtitle {
+    margin: 0;
+    font-size: 14px;
+    color: #cfd8dc;
+}
+
+nav {
+    display: flex;
+    gap: 15px;
+}
+
+.nav-link {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+}
+
+.hero {
+    position: relative;
+    background: url('../img/bg-gedung-kgp.jpg') no-repeat center center;
+    background-size: cover;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.overlay {
+    background-color: #007BFF;
+    padding: 40px;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+}
+
+.overlay h2 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.overlay p {
+    font-size: 16px;
+}
+
+/* Reset dasar */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f2f6fc;
+    color: #333;
+}
+
+/* Container login */
+.login-container {
+    width: 350px;
+    margin: 100px auto;
+    background: #ffffff;
+    padding: 30px 25px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.login-container img {
+    width: 90px;
+    margin-bottom: 20px;
+}
+
+.login-container h2 {
+    margin-bottom: 20px;
+    color: #003366;
+}
+
+.login-container input[type=email],
+.login-container input[type=password] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0 15px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    transition: border 0.3s;
+}
+
+.login-container input:focus {
+    border-color: #007BFF;
+    outline: none;
+}
+
+.login-container button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background 0.3s;
+}
+
+.login-container button:hover {
+    background-color: #0056b3;
+    cursor: pointer;
+}
+
+/* Alert pesan error */
+.login-container .error {
+    color: red;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+/* Responsive */
+@media screen and (max-width: 480px) {
+    .login-container {
+        width: 90%;
+        margin-top: 50px;
+    }
+}
+
